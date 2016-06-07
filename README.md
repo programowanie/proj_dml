@@ -1,8 +1,7 @@
 # Gąsiorowska Patrycja 
 
-Projekt będzie symulacją Dolnośląskich Meczów Matematycznych. Zasady w symulacji będą jak najbardziej zbliżone do rzeczywistych. Drużyna składa się z 10 osób i nauczyciela, który podczas kół matematycznych jest w stanie poprawiać umiejętności uczestników. Pierwszym etapem są eliminacje rozgrywane pomiędzy czterema drużynami 
-w systemie grupowym, przechodzi najlepsza. 
-
-Przyjmuję, że w skład jury wejdą nauczyciele drużyn aktualnie grających. Za wygrany mecz drużyna otrzymuje 3 punkty, za remis 1 punkt (nie biorę pod uwagę sytuacji, gdy któraś z drużyn nie może rozegrać meczu). Półfinały odbywają się na tej samej zasadzie co eliminacje, finał w systemie pucharowym. Drużyny mają godzinę na rozwiązywanie zadań (w początkowej wersji symulacji każda osoba z drużyny próbuje rozwiązać tylko jedno zadanie). 
-
-Podczas rozgrywki drużyny na przemian zadają sobie zadania, koniec meczu następuje po 8.Zadane zadanie można przyjąć lub odbić (tylko raz). Jeden uczestnik może rozwiązać tylko jedno zadanie przy tablicy, następnie jury ustala liczbę punktów. Zadanie będzie należało do jednego z typów zadań, a uczestnicy będą mieli określone umiejętności rozwiązywania zadań danego typu.
+Projekt jest symulacją Dolnośląskich Meczów Matematycznych. Zasady w symulacji są jak najbardziej zbliżone do rzeczywistych. 
+Drużyna składa się z 10 osób. Do rozwiązania w czasie meczu jest 10 zadań różnego typu, a uczestnicy posiadają określone umiejętności pozwalające rozwiązać zadanie danego typu.
+Każdy zawodnik z drużyny jest przydzielany do jednego zadania (nie może zaprezentować więcej).
+Podczas rozgrywki drużyny na przemian zadają sobie zadania, koniec meczu następuje po 8 zadanych. Każda drużyna ma prawo jednokrotnie "odbić zadanie", co oznacza, że rozwiązuje je zawodnik z drużyny, która je zadała. 
+Po zaprezentowaniu zadania są przydzielane punkty w skali 0-10, w przypadku zadania odbitego wzór jest następujący: 2*(otrzymane punkty)-10.
